@@ -21,6 +21,14 @@ span.md-ellipsis {
     color: #333333; /* 可改颜色 */
 }
 
+/* 保证父容器足够高度显示大字体 */
+.md-header__title {
+    height: auto !important;
+}
+.md-header {
+    height: 5em !important;
+}
+
 /* 两侧导航菜单字体 */
 .md-nav__title, 
 .md-nav__link {
