@@ -15,7 +15,7 @@
 
 /* 改变 site_name 文本大小 */
 span.md-ellipsis {
-    font-size: 2.5em 
+    font-size: 3em 
     font-weight: bold 
     letter-spacing: 0.05em 
     color: #333333; /* 可改颜色 */
@@ -24,12 +24,12 @@ span.md-ellipsis {
 /* 两侧导航菜单字体 */
 .md-nav__title, 
 .md-nav__link {
-    font-size: 1.1em;      /* 默认约 1em */
+    font-size: 1.2em;      /* 默认约 1em */
 }
 
 /* 顶部菜单字体 */
 .md-tabs__link {
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
 
 /* 
