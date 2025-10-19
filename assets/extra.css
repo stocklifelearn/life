@@ -13,6 +13,14 @@
     letter-spacing: 0.05em; /* 字间距，增加书卷感 */
 }
 
+/* 改变 site_name 文本大小 */
+span.md-ellipsis {
+    font-size: 2.5em 
+    font-weight: bold 
+    letter-spacing: 0.05em 
+    color: #333333; /* 可改颜色 */
+}
+
 /* 两侧导航菜单字体 */
 .md-nav__title, 
 .md-nav__link {
