@@ -15,19 +15,20 @@
 
 /* 改变 site_name 文本大小 */
 span.md-ellipsis {
-    font-size: 3em !important
-    font-weight: bold 
-    letter-spacing: 0.05em 
+    font-size: 3em !important;
+    font-weight: bold; 
+    letter-spacing: 0.05em; 
     color: #333333; /* 可改颜色 */
 }
 
-/* 保证父容器足够高度显示大字体 */
+/* 保证父容器足够高度显示大字体 
 .md-header__title {
     height: auto !important;
 }
 .md-header {
     height: 5em !important;
 }
+*/
 
 /* 两侧导航菜单字体 */
 .md-nav__title, 
