@@ -8,7 +8,7 @@
 
 /* 左上角网站标题字体更大 */
 .md-header-nav__title {
-    font-size: 1.8em;      /* 默认约 1.2em，可按需调 */
+    font-size: 2.5em;      /* 默认约 1.2em，可按需调 */
     font-weight: bold;      /* 加粗，更醒目 */
     letter-spacing: 0.05em; /* 字间距，增加书卷感 */
 }
@@ -16,12 +16,17 @@
 /* 顶部导航菜单字体更大 */
 .md-nav__title, 
 .md-nav__link {
-    font-size: 1.2em;      /* 默认约 1em */
+    font-size: 1.1em;      /* 默认约 1em */
 }
 
-/* 可以增加导航栏高度，避免文字被挤 */
-.md-header {
-    height: 4.5em;          /* 默认约 3.5em */
+.md-tabs__link {
+    font-size: 1.2em;
 }
+
+/* 可以增加导航栏高度，避免文字被挤
+.md-header {
+    height: 4.5em;          
+}
+*/
 
   
