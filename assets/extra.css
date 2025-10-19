@@ -15,7 +15,7 @@
 
 /* 改变 site_name 文本大小 */
 span.md-ellipsis {
-    font-size: 3em 
+    font-size: 3em !important
     font-weight: bold 
     letter-spacing: 0.05em 
     color: #333333; /* 可改颜色 */
