@@ -1,0 +1,8 @@
+/* 让左上角的 logo 显示为圆形 */
+.md-header__button.md-logo img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 40px;   /* 根据需要调整 */
+    height: 40px;  /* 确保宽高一致 */
+}
+  
