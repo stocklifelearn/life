@@ -16,14 +16,15 @@
 /* 顶部导航菜单字体更大 */
 .md-nav__title, 
 .md-nav__link {
-    font-size: 1.1em;      /* 默认约 1em */
+    font-size: 1.5em;      /* 默认约 1em */
 }
 
+/* 
 .md-tabs__link {
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
-/* 可以增加导航栏高度，避免文字被挤
+可以增加导航栏高度，避免文字被挤
 .md-header {
     height: 4.5em;          
 }
