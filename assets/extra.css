@@ -13,17 +13,17 @@
     letter-spacing: 0.05em; /* 字间距，增加书卷感 */
 }
 
-/* 顶部导航菜单字体更大 */
+/* 两侧导航菜单字体 */
 .md-nav__title, 
 .md-nav__link {
-    font-size: 1.5em;      /* 默认约 1em */
+    font-size: 1em;      /* 默认约 1em */
+}
+
+.md-tabs__link {
+    font-size: 2em;
 }
 
 /* 
-.md-tabs__link {
-    font-size: 1.5em;
-}
-
 可以增加导航栏高度，避免文字被挤
 .md-header {
     height: 4.5em;          
