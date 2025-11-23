@@ -28,6 +28,11 @@ li.md-nav__item span.md-ellipsis {
     color: #555555;
 } 
 
+img {
+    max-width: 100%; /* 确保图片不会超出容器 */
+    height: auto;    /* 保持图片的宽高比 */
+}
+
 /* 保证父容器足够高度显示大字体 
 .md-header__title {
     height: auto !important;
