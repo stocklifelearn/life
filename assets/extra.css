@@ -21,6 +21,13 @@ span.md-ellipsis {
     color: #333333; /* 可改颜色 */
 }
 
+/* 单独调整右侧 TOC 的字体大小 */
+li.md-nav__item span.md-ellipsis {
+    font-size: 1em !important; /* 根据需要调整字体大小 */
+    font-weight: normal;         /* 可选：调整字体粗细 */
+    color: #555555;              /* 可选：调整颜色 */
+}
+
 /* 保证父容器足够高度显示大字体 
 .md-header__title {
     height: auto !important;
