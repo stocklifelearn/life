@@ -13,13 +13,13 @@
     letter-spacing: 0.05em; /* 字间距，增加书卷感 */
 }
 
-/* 改变 site_name 文本大小 */
+/* 改变 site_name 文本大小 
 span.md-ellipsis {
-    font-size: 1.5em !important;
+    font-size: 2em !important;
     font-weight: bold; 
     letter-spacing: 0.05em; 
-    /* color: #333333; /* 可改颜色 */
-}
+    color: #333333;
+} */
 
 /* 单独调整右侧 TOC 的字体大小 */
 li.md-nav__item span.md-ellipsis {
