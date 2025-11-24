@@ -1,0 +1,63 @@
+/* 让左上角的 logo 显示为圆形 */
+.md-header__button.md-logo img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 40px;   /* 根据需要调整 */
+    height: 40px;  /* 确保宽高一致 */
+}
+
+/* 左上角网站标题字体更大 */
+.md-header-nav__title {
+    font-size: 2.5em;      /* 默认约 1.2em，可按需调 */
+    font-weight: bold;      /* 加粗，更醒目 */
+    letter-spacing: 0.05em; /* 字间距，增加书卷感 */
+}
+
+/* 改变 site_name 文本大小 
+span.md-ellipsis {
+    font-size: 2em !important;
+    font-weight: bold; 
+    letter-spacing: 0.05em; 
+    color: #333333;
+} 
+
+/* 单独调整右侧 TOC 的字体大小 */
+li.md-nav__item span.md-ellipsis {
+    font-size: 1em !important; 
+    font-weight: normal;        
+    color: #555555;
+} 
+
+img {
+    max-width: 100%; /* 确保图片不会超出容器 */
+    height: auto;    /* 保持图片的宽高比 */
+}
+
+/* 保证父容器足够高度显示大字体 
+.md-header__title {
+    height: auto !important;
+}
+.md-header {
+    height: 5em !important;
+}
+*/
+
+/* 两侧导航菜单字体 */
+.md-nav__title, 
+.md-nav__link {
+    font-size: 1.2em;      /* 默认约 1em */
+}
+
+/* 顶部菜单字体 */
+.md-tabs__link {
+    font-size: 1.6em;
+}
+
+/* 
+可以增加导航栏高度，避免文字被挤
+.md-header {
+    height: 4.5em;          
+}
+*/
+
+  
